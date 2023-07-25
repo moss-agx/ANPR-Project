@@ -9,7 +9,7 @@ Image processing technology is used in Automatic Number  Plate Recognition (ANPR
 With the increasing number of cars on the roads and highways, we are confronted with a slew of issues such as car smuggling, car use in terrorist acts, and illicit operations. Automatic number plate recognition (ANPR) is a system for reading number plates that uses character recognition on images. ANPR has the potential to be a very precise technology for detecting number plates The computer vision technology used to recognize identification number plates is known as ANPR.
 
 ## Approach
-To predict the license plate number, the following things need to be done:
+To predict the license plate number, the following things needed to be done:
 1. The license plate needs to be detected from the overall image. This can be done using object detection methods like finding contours, using You-Only-Look-Once (YOLO), etc.
 2. After extracting the license plate, individual characters need to be seperated and segregated using character segmentation techniques like finding rectangular contours.
 3. The last phase is performing character recognition, where the segmented characters are recognized using deep learning classifiers. We used CNN in this project as CNNs work the best with images.
